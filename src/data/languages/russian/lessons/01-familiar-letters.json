@@ -1,0 +1,68 @@
+{
+  "id": "01-familiar-letters",
+  "moduleId": "module-1",
+  "title": "Lletres que ja coneixes",
+  "description": "Les lletres ciríl·liques similars al llatí",
+  "order": 1,
+  "sections": [
+    {
+      "type": "theory",
+      "title": "L'alfabet ciríl·lic: les lletres familiars",
+      "content": "El rus fa servir l'<strong>alfabet ciríl·lic</strong>, creat al segle IX. Té 33 lletres. La bona notícia: algunes s'assemblen molt a les llatines i sonen igual (o quasi).",
+      "examples": [
+        { "russian": "А а", "transliteration": "a", "catalan": "com la 'a' catalana", "emoji": "🅰️" },
+        { "russian": "Е е", "transliteration": "ye", "catalan": "com 'ie' (ex: Єва = Ieva)", "emoji": "" },
+        { "russian": "К к", "transliteration": "k", "catalan": "com la 'k' catalana", "emoji": "" },
+        { "russian": "М м", "transliteration": "m", "catalan": "com la 'm' catalana", "emoji": "" },
+        { "russian": "О о", "transliteration": "o", "catalan": "com la 'o' (àtona sona com 'a'!)", "emoji": "" },
+        { "russian": "Т т", "transliteration": "t", "catalan": "com la 't' catalana", "emoji": "" }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Practica llegint",
+      "content": "Ara que coneixes aquestes lletres, pots llegir aquestes paraules russes:",
+      "examples": [
+        { "russian": "мама", "transliteration": "mama", "catalan": "mare", "emoji": "👩" },
+        { "russian": "атом", "transliteration": "atom", "catalan": "àtom", "emoji": "⚛️" },
+        { "russian": "том", "transliteration": "tom", "catalan": "volum (de llibre)", "emoji": "📚" },
+        { "russian": "Москва", "transliteration": "Moskva", "catalan": "Moscou", "emoji": "🏙️" }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "L'origen de l'alfabet ciríl·lic",
+      "emoji": "📜",
+      "content": "El ciríl·lic va ser creat al segle IX pels monjos <strong>Ciril i Metodi</strong>, missioners de Bizanci. Van crear l'alfabet per traduir textos religiosos al slave antic. Avui s'usa en rus, ucraïnès, búlgar, serbi i molts altres idiomes."
+    },
+    {
+      "type": "exercise",
+      "exercise": {
+        "type": "writing",
+        "prompt": "mare (la paraula russa que sona com en català)",
+        "answer": "мама",
+        "transliteration": "mama",
+        "hint": "Sona exactament com en català"
+      }
+    },
+    {
+      "type": "exercise",
+      "exercise": {
+        "type": "writing",
+        "prompt": "Moscou (en rus)",
+        "answer": "Москва",
+        "transliteration": "Moskva",
+        "hint": "M + о + с + к + в + а"
+      }
+    },
+    {
+      "type": "exercise",
+      "exercise": {
+        "type": "translation",
+        "russian": "атом",
+        "correctTranslation": "àtom",
+        "alternativeTranslations": ["atom"]
+      }
+    }
+  ]
+}

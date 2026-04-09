@@ -1,0 +1,45 @@
+{
+  "id": "russian",
+  "name": "Rus",
+  "nativeName": "Русский",
+  "flag": "🇷🇺",
+  "description": "Aprèn rus des de zero amb mètode SRS i exercicis d'escriptura activa. Nivell A1.",
+  "modules": [
+    {
+      "id": "module-1",
+      "title": "L'alfabet ciríl·lic",
+      "description": "Aprèn a llegir i escriure l'alfabet rus",
+      "lessons": ["01-familiar-letters", "02-false-friends", "03-new-letters-1", "04-new-letters-2", "05-reading-practice"]
+    },
+    {
+      "id": "module-2",
+      "title": "Primeres paraules i frases",
+      "description": "Salutacions, presentar-se i frases bàsiques",
+      "lessons": ["06-greetings", "07-introductions", "08-how-are-you", "09-farewell"]
+    },
+    {
+      "id": "module-3",
+      "title": "La base gramatical",
+      "description": "Gènere, pronoms i conjugació verbal",
+      "lessons": ["10-noun-gender", "11-pronouns-to-be", "12-conjugation-1", "13-conjugation-2", "14-negation-questions"]
+    },
+    {
+      "id": "module-4",
+      "title": "Vocabulari del dia a dia",
+      "description": "Números, temps, família i vida quotidiana",
+      "lessons": ["15-numbers-1-100", "16-days-months-seasons", "17-family", "18-food-drinks", "19-city-transport"]
+    },
+    {
+      "id": "module-5",
+      "title": "Primers casos",
+      "description": "Nominatiu, acusatiu i preposicional",
+      "lessons": ["20-nominative-accusative", "21-prepositional", "22-cases-practice"]
+    },
+    {
+      "id": "module-6",
+      "title": "Integració",
+      "description": "Lectura, escriptura i expressió",
+      "lessons": ["23-reading-texts", "24-guided-writing"]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "07-introductions",
+  "moduleId": "module-2",
+  "title": "Presentar-se",
+  "description": "Com dir el teu nom i preguntar el d'altri",
+  "order": 7,
+  "sections": [
+    {
+      "type": "theory",
+      "title": "Com presentar-se",
+      "content": "En rus, per dir 'em dic' s'usa <strong>Меня зовут</strong> (literalment: 'em criden'). És una estructura fixa molt útil.",
+      "examples": [
+        { "russian": "Меня зовут Арнау.", "transliteration": "Menya zovut Arnau.", "catalan": "Em dic Arnau.", "emoji": "👤" },
+        { "russian": "Как вас зовут?", "transliteration": "Kak vas zovut?", "catalan": "Com es diu? (formal)", "emoji": "❓" },
+        { "russian": "Как тебя зовут?", "transliteration": "Kak tebya zovut?", "catalan": "Com et dius? (informal)", "emoji": "❓" },
+        { "russian": "Очень приятно!", "transliteration": "Ochen priyatno!", "catalan": "Molt de gust!", "emoji": "😊" },
+        { "russian": "Я из Барселоны.", "transliteration": "Ya iz Barcelony.", "catalan": "Sóc de Barcelona.", "emoji": "🏙️" }
+      ]
+    },
+    {
+      "type": "comparison",
+      "title": "Jo sóc vs Я — una gran diferència!",
+      "catalan": "Jo sóc estudiant.",
+      "russian": "Я студент. (sense verb!)",
+      "explanation": "En rus, el verb 'ser' en present NO s'usa. On en català diem 'jo sóc X', en rus es diu simplement 'jo X'. Potser sembla estrany, però és un dels aspectes que fan el rus més senzill per a certes frases!"
+    },
+    {
+      "type": "exercise",
+      "exercise": {
+        "type": "writing",
+        "prompt": "Em dic [el teu nom]. (Usa 'Arnau' o el teu nom en rus)",
+        "answer": "Меня зовут Арнау.",
+        "alternativeAnswers": ["Меня зовут Арнау"],
+        "transliteration": "Menya zovut Arnau.",
+        "hint": "Меня зовут + nom"
+      }
+    },
+    {
+      "type": "exercise",
+      "exercise": {
+        "type": "writing",
+        "prompt": "Com et dius? (informal)",
+        "answer": "Как тебя зовут?",
+        "alternativeAnswers": ["Как тебя зовут"],
+        "transliteration": "Kak tebya zovut?",
+        "hint": "Kak + tebya + zovut"
+      }
+    },
+    {
+      "type": "exercise",
+      "exercise": {
+        "type": "sentence-builder",
+        "prompt": "Forma la frase: 'Sóc de Barcelona' en rus",
+        "words": ["Барселоны.", "из", "Я"],
+        "correctOrder": ["Я", "из", "Барселоны."],
+        "translation": "Sóc de Barcelona."
+      }
+    },
+    {
+      "type": "exercise",
+      "exercise": {
+        "type": "translation",
+        "russian": "Очень приятно!",
+        "correctTranslation": "Molt de gust!",
+        "alternativeTranslations": ["Encantat!", "Un plaer!"]
+      }
+    }
+  ]
+}

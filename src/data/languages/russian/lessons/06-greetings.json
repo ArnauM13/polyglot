@@ -1,0 +1,75 @@
+{
+  "id": "06-greetings",
+  "moduleId": "module-2",
+  "title": "Salutacions",
+  "description": "Com saludar formalment i informalment en rus",
+  "order": 6,
+  "sections": [
+    {
+      "type": "theory",
+      "title": "Salutacions bàsiques",
+      "content": "En rus existeixen dos registres clars: informal (ты, com el 'tu' català) i formal (Вы, com el 'vostè'). Les salutacions canvien segons el context.",
+      "examples": [
+        { "russian": "Привет!", "transliteration": "Privet!", "catalan": "Hola! (informal)", "emoji": "👋" },
+        { "russian": "Здравствуйте!", "transliteration": "Zdravstvuyte!", "catalan": "Bon dia / Hola! (formal)", "emoji": "🤝" },
+        { "russian": "Здравствуй!", "transliteration": "Zdravstvuy!", "catalan": "Hola! (informal-formal)", "emoji": "" },
+        { "russian": "Доброе утро!", "transliteration": "Dobroye utro!", "catalan": "Bon dia! (matí)", "emoji": "🌅" },
+        { "russian": "Добрый день!", "transliteration": "Dobryy den!", "catalan": "Bon dia! (tarda)", "emoji": "☀️" },
+        { "russian": "Добрый вечер!", "transliteration": "Dobryy vecher!", "catalan": "Bona tarda/nit!", "emoji": "🌆" }
+      ]
+    },
+    {
+      "type": "comparison",
+      "title": "Formal vs Informal: com en català",
+      "catalan": "Tu (informal) / Vostè (formal)",
+      "russian": "ты (informal) / Вы (formal)",
+      "explanation": "Igual que en català tenim 'tu' i 'vostè', en rus existeix 'ты' (tes) per a amics i família, i 'Вы' (vi) per a desconeguts, caps o gent gran. El 'Вы' formal s'escriu sempre amb majúscula quan es dirigeix a una persona."
+    },
+    {
+      "type": "culture",
+      "title": "La formalitat russa",
+      "emoji": "🎩",
+      "content": "A Rússia, la formalitat és molt important. Als desconeguts, companys de feina o gent gran sempre s'usa <strong>Вы</strong> i el nom + patronímic (ex: Ivan Petróvitx). Usar <strong>ты</strong> amb algú que no t'ha donat permís pot semblar maleducat. Amb el temps, la gent et diu: <em>«Давай на ты»</em> (passem al 'tu')."
+    },
+    {
+      "type": "exercise",
+      "exercise": {
+        "type": "writing",
+        "prompt": "Hola! (informal, per a un amic)",
+        "answer": "Привет!",
+        "alternativeAnswers": ["Привет"],
+        "transliteration": "Privet!",
+        "hint": "Pri-vet"
+      }
+    },
+    {
+      "type": "exercise",
+      "exercise": {
+        "type": "writing",
+        "prompt": "Hola! (formal, en una reunió de feina)",
+        "answer": "Здравствуйте!",
+        "alternativeAnswers": ["Здравствуйте"],
+        "transliteration": "Zdravstvuyte!",
+        "hint": "La paraula més llarga, però la més important"
+      }
+    },
+    {
+      "type": "exercise",
+      "exercise": {
+        "type": "translation",
+        "russian": "Добрый вечер!",
+        "correctTranslation": "Bona tarda!",
+        "alternativeTranslations": ["Bona nit!", "Bon vespre!"]
+      }
+    },
+    {
+      "type": "exercise",
+      "exercise": {
+        "type": "dictation",
+        "text": "Привет!",
+        "transliteration": "Privet!",
+        "catalan": "Hola!"
+      }
+    }
+  ]
+}

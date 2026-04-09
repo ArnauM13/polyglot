@@ -1,0 +1,69 @@
+{
+  "id": "02-false-friends",
+  "moduleId": "module-1",
+  "title": "Falsos amics ciríl·lics",
+  "description": "Lletres que semblen llatines però sonen diferent",
+  "order": 2,
+  "sections": [
+    {
+      "type": "theory",
+      "title": "Compte amb aquests! Semblen llatines però no ho són",
+      "content": "Algunes lletres ciríl·liques <strong>semblen</strong> lleures llatines però sonen completament diferent. Aquí hi ha les principals trampes:",
+      "examples": [
+        { "russian": "В в", "transliteration": "v", "catalan": "sembla 'B' però sona V", "emoji": "⚠️" },
+        { "russian": "Н н", "transliteration": "n", "catalan": "sembla 'H' però sona N", "emoji": "⚠️" },
+        { "russian": "Р р", "transliteration": "r", "catalan": "sembla 'P' però sona R (vibrant!)", "emoji": "⚠️" },
+        { "russian": "С с", "transliteration": "s", "catalan": "sembla 'C' però sona S", "emoji": "⚠️" },
+        { "russian": "У у", "transliteration": "u", "catalan": "sona U", "emoji": "" },
+        { "russian": "Х х", "transliteration": "kh", "catalan": "com la 'j' castellana (suau)", "emoji": "" }
+      ]
+    },
+    {
+      "type": "comparison",
+      "title": "Per no confondre's",
+      "catalan": "P → sona P en català",
+      "russian": "Р → sona R en rus",
+      "explanation": "La 'Р' russa és una 'R' vibrant, com la 'r' catalana a 'terra'. La lletra que sembla 'P' és en realitat la 'R' russa. Confús? Amb pràctica es fa automàtic."
+    },
+    {
+      "type": "theory",
+      "title": "Paraules amb falsos amics",
+      "content": "Prova de llegir aquestes paraules sabent com sonen realment les lletres:",
+      "examples": [
+        { "russian": "РЕСТОРАН", "transliteration": "restoran", "catalan": "restaurant", "emoji": "🍽️" },
+        { "russian": "СЕВЕР", "transliteration": "sever", "catalan": "nord", "emoji": "🧭" },
+        { "russian": "РОМАН", "transliteration": "roman", "catalan": "novel·la / nom Roman", "emoji": "📖" },
+        { "russian": "УРОК", "transliteration": "urok", "catalan": "lliçó / classe", "emoji": "📚" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "exercise": {
+        "type": "translation",
+        "russian": "РЕСТОРАН",
+        "correctTranslation": "restaurant",
+        "alternativeTranslations": ["restaurante"]
+      }
+    },
+    {
+      "type": "exercise",
+      "exercise": {
+        "type": "writing",
+        "prompt": "nord (en rus, en majúscules)",
+        "answer": "СЕВЕР",
+        "alternativeAnswers": ["север"],
+        "transliteration": "SEVER",
+        "hint": "S + E + V + E + R"
+      }
+    },
+    {
+      "type": "exercise",
+      "exercise": {
+        "type": "translation",
+        "russian": "УРОК",
+        "correctTranslation": "lliçó",
+        "alternativeTranslations": ["classe", "lecció"]
+      }
+    }
+  ]
+}
