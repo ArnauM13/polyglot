@@ -7,6 +7,41 @@
 
 ---
 
+## Context del desenvolupador
+
+- **Nom**: Arnau Martinez Manchado — GitHub: `ArnauM13`
+- **Email personal** (per commits): `arnaumm98@gmail.com`
+- **Idioma de comunicació**: català
+- **Coneix bé el codi** — no cal explicar conceptes bàsics
+- **Git config local** (cal aplicar a cada sessió si no persisteix):
+  ```bash
+  git config user.name "Arnau"
+  git config user.email "arnaumm98@gmail.com"
+  ```
+  (El global usa l'email de feina — sempre usar local)
+- **Branch principal**: `main`
+- **Commits**: sense Co-Authored-By ni cap referència a Claude/IA
+
+---
+
+## Decisions de disseny preses (no tornar a preguntar)
+
+| Decisió | Elecció | Motiu |
+|---------|---------|-------|
+| Mètode | SRS estil Anki | No Duolingo — producció activa, no reconeixement passiu |
+| Teclat ciríl·lic | Cap de virtual | Usa el teclat del mòbil (té ciríl·lic activat) |
+| Il·lustracions | Emojis + SVG | No Unsplash — lleuger, ràpid, offline-friendly |
+| Backend | Supabase free tier | Des del dia 1 — no localStorage-only |
+| Offline | PWA (next-pwa) | Ha de funcionar sense connexió |
+| Exercicis | Tots basats en escriptura | Typing > multiple choice |
+| Gamificació | Cap | Progrés real, sense XP ni ratxes |
+| Deploy | Vercel (futur) | Quan estigui validat — ara local + GitHub |
+| Imatges cards SRS | Emojis (del JSON) | Camp `emoji` a `VocabularyCard` |
+| Comparacions | Català ↔ Rus | Llengua de referència: català (no castellà) |
+| Comunicació | Català | Totes les explicacions en català |
+
+---
+
 ## Què és
 
 Plataforma web d'aprenentatge actiu d'idiomes. Enfocament **Anki-style** (SRS real amb algorisme SM-2), no Duolingo. L'usuari **escriu** en rus en lloc de triar opcions.
